@@ -45,7 +45,7 @@ if [ $git_check -ne 0 ]; then
 fi
 
 if [ ! -e ".git" ]; then
-    git clone https://github.com/Proscend/docker-opevpn-as.git ~/docker-pritunl
+    git clone https://github.com/Proscend/docker-pritunl.git ~/docker-pritunl
     cd ~/docker-pritunl
 fi
 
